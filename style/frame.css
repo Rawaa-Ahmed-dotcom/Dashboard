@@ -51,6 +51,12 @@
 .p-20 {
 padding: 20px;
 }
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
 .pt-10 {
     padding-top: 10px;
 }
