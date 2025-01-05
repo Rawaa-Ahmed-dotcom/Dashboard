@@ -1,0 +1,306 @@
+:root{
+    --fa-style-family-classic : "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+    --grey-color: gray;
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    
+}
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.align-center{
+    align-items: center;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.space-between {
+    justify-content: space-between;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+/* End Box */
+
+/* ==================================================== */
+
+/* Start padding + margin */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20 {
+padding: 20px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.m-0{
+    margin: 0;
+}
+.mt-0 {
+    margin-top: 0;
+
+}
+.m-15 {
+    margin: 15px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mt-20 {
+margin-top: 20px;
+} 
+.mb-20 {
+margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+} 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/* End padding + margin */
+
+/* =================================================== */
+
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.c-green {
+    color: green;
+}
+
+.c-white {
+    color: white;
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.bg-red {
+    background-color: red;
+}
+
+/* End Color */
+
+/* =================================================== */
+
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+/* End Position */
+
+/* =================================================== */
+
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-black {
+    color: black;
+}
+.c-red {
+    color: var(--red-color)
+}
+.fw-bold {
+    font-weight: bold;
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.fw-500 {
+    font-weight: 500;
+}
+
+
+/* End Font */
+
+/* =================================================== */
+
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.rad-half {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.b-none {
+    border: none;
+}
+
+
+/* End Border */
+
+/* =================================================== */ 
+
+/* Start Sizing */
+.w-full{
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.h-full {
+
+}
+
+
+
+/* End Sizing */
+
+/* =================================================== */
+
+/* Start media */
+@media (max-width: 767px){
+    .hide-mobile{
+        display: none;
+    }
+    .txt-c-mobile{
+        text-align: center;
+    }
+    .block-mobile{
+        display: block;
+    }
+}
+
+/* End media */
+/* Start component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-shape {
+    padding: 4px 10px ;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.end-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/* End component */
