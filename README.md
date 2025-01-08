@@ -72,9 +72,6 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
    ```
 
 
-## &#128179; License
-
-   This project is licensed under the MIT License. See the LICENSE file for more details.
 
    
 <hr>
